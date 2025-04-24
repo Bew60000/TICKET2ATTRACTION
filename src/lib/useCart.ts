@@ -43,7 +43,7 @@ export const useCart = (
   };
 
   const discountAmount = calculateDiscount();
-  const grandTotal = total - discountAmount;
+  const grandTotal = Math.max(total - discountAmount, 0);
 
   const increaseQuantity = (item: Ticket) => {
     const updatedCart = cart.map((cartItem) => {

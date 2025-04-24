@@ -1,6 +1,6 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import Tickets from "@/components/Tickets";
+import Tickets from "@/components/ticket/Tickets";
 import Cart from "@/components/cart/Cart";
 
 export default function Home() {
